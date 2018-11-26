@@ -1,33 +1,86 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class GameGUI {
+public class GameGUI extends JFrame implements ActionListener {
 
-    private static void createWindow() {
+    private GameGUI() {
 
-        JFrame frame = new JFrame("PokeTrumps");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setIconImage(new ImageIcon(".\\images\\Poke_Ball-512.png").getImage());
+        setTitle("PokeTrumps");
+        setSize(500, 300);
 
-        JLabel text = new JLabel("Welcome to PokeTrumps",SwingConstants.CENTER);
-        frame.add(text);
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        setLocation(screenSize.width/2-getSize().width/2, screenSize.height/2-getSize().height/2);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        JButton createAccountButton = new JButton("Create Account");
-        createAccountButton.setBounds(250,200,95,30);
-        frame.add(createAccountButton);
+        add(decorationButtons());
+        //add(addAccountDecoration());
 
-        JButton logInButton = new JButton("Log In");
-        logInButton.setBounds(250,400,95,30);
+        DecorationPanels dec = new DecorationPanels();
+        dec.setVisible(true);
+        add(dec);
 
-        frame.add(logInButton);
-
-        frame.setSize(500,500);
-
-        frame.setLayout(null);
-        frame.setVisible(true);
 
     }
-
     public static void main(String[] args) {
-        createWindow();
+            GameGUI game = new GameGUI();
+            game.setVisible(true);
+    }
+
+    public void actionPerformed(ActionEvent e) {
+
+        if(e.getActionCommand().equals("Create Account")) {
+            add(addAccountDecoration());
+
+        }
+        else if(e.getActionCommand().equals("Log In")) {
+            logIn();
+        }
+    }
+
+    private JPanel decorationButtons() {
+       JPanel panel = new JPanel();
+        JButton createAccButton = new JButton("Create Account");
+        JButton loginButton = new JButton("Log In");
+
+        panel.add(createAccButton);
+        panel.add(loginButton);
+        panel.setLocation(200, 200);
+        return panel;
+    }
+
+    private JPanel addAccountDecoration() {
+        JPanel panel = new JPanel();
+
+        JLabel usernameLabel = new JLabel("Username:");
+        JLabel emailLabel = new JLabel("Email");
+        JLabel passwordLabel = new JLabel("Password");
+        JLabel confirmPasswordLabel = new JLabel("Confirm Password");
+
+        JTextField usernameField = new JTextField(15);
+        JTextField emailField = new JTextField(15);
+        JPasswordField passwordField = new JPasswordField(15);
+        JPasswordField confirmPasswordField = new JPasswordField(15);
+
+        panel.add(usernameLabel);
+        panel.add(usernameField);
+        panel.add(emailLabel);
+        panel.add(emailField);
+        panel.add(passwordLabel);
+        panel.add(passwordField);
+        panel.add(confirmPasswordLabel);
+        panel.add(confirmPasswordField);
+
+        JButton addAccount = new JButton("Add Account");
+
+        panel.add(addAccount);
+
+        return panel;
+    }
+
+    private void logIn() {
+
     }
 }
