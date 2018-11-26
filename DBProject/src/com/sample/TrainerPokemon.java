@@ -9,6 +9,7 @@ public class TrainerPokemon {
   private String favourite;
 
 
+
   public long getPokemonId() {
     return pokemonId;
   }
