@@ -2,6 +2,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.Timestamp;
+import java.time.LocalDate;
+import java.util.Date;
+
 import com.sample.*;
 
 
@@ -13,8 +17,8 @@ public class DecorationPanels extends JFrame implements ActionListener {
     private JLabel confirmPasswordLabel = new JLabel("Confirm Password");
     private JTextField usernameField = new JTextField(15);
     private JTextField emailField = new JTextField(15);
-    private JPasswordField passwordField = new JPasswordField(15);
-    private JPasswordField confirmPasswordField = new JPasswordField(15);
+    private JTextField passwordField = new JTextField(15);
+    private JTextField confirmPasswordField = new JTextField(15);
 
     public DecorationPanels() {
 
@@ -51,8 +55,48 @@ public class DecorationPanels extends JFrame implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent e) {
-        Trainer trainer = new Trainer();
-        trainer.validateInfo();
 
+        boolean blanksCheck = blankValidationCheck();
+
+        if(blanksCheck) {
+
+
+            Trainer trainer = new Trainer();
+            boolean check = trainer.validateInfo(usernameField.getText(), emailField.getText(),
+                    passwordField.getText(), confirmPasswordField.getText());
+
+            if (check) {
+                trainer.setTName(usernameField.getText());
+                trainer.setEmail(emailField.getText());
+                trainer.setPassword(passwordField.getText());
+                trainer.setCreationDate(new Timestamp(System.currentTimeMillis()));
+
+            }
+
+        }
+        else
+            System.out.println("\nPlease re-enter correctly!");
+    }
+    private boolean blankValidationCheck() {
+        boolean check = false;
+        if(!usernameField.getText().equals("")) {
+            if(!emailField.getText().equals("")) {
+                if(!passwordField.getText().equals("")) {
+                    if(!confirmPasswordField.getText().equals("")) {
+                      check = true;
+                    }
+                    else
+                        System.out.println("Confirm password is empty");
+                }
+                else
+                    System.out.println("Password is empty");
+            }
+            else
+                System.out.println("Email is empty");
+        }
+        else
+            System.out.println("Username is empty");
+
+        return check;
     }
 }
