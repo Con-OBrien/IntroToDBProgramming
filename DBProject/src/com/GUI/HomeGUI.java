@@ -1,12 +1,18 @@
+package com.GUI;
+
+import com.decoration.AddAccountDecoration;
+import com.decoration.LogInDecoration;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import com.sample.*;
 
-public class GameGUI extends JFrame implements ActionListener {
+public class HomeGUI extends JFrame implements ActionListener {
 
-    public GameGUI() {
+
+
+    public HomeGUI() {
 
         setIconImage(new ImageIcon(".\\images\\Poke_Ball-512.png").getImage());
         setTitle("PokeTrumps");
@@ -15,31 +21,49 @@ public class GameGUI extends JFrame implements ActionListener {
         getScreenSize();
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+
         add(decorationButtons());
+      //  add(backButton());
     }
     public static void main(String[] args) {
-            GameGUI game = new GameGUI();
+            HomeGUI game = new HomeGUI();
             game.setVisible(true);
     }
-    public void getScreenSize() {
+    private void getScreenSize() {
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         setLocation(screenSize.width/2-getSize().width/2, screenSize.height/2-getSize().height/2);
+    }
+
+    private JMenuBar backButton() {
+        JMenuBar menuBar = new JMenuBar();
+        JMenu backButton = new JMenu("Back");
+        menuBar.add(backButton);
+
+        backButton.addActionListener(this);
+
+        return  menuBar;
     }
 
     public void actionPerformed(ActionEvent e) {
 
         if(e.getActionCommand().equals("Create Account")) {
-            System.out.println("yes");
-            DecorationPanels dec = new DecorationPanels();
+            AddAccountDecoration dec = new AddAccountDecoration();
             setVisible(false);
         }
         else if(e.getActionCommand().equals("Log In")) {
-            logIn();
+          LogInDecoration dec = new LogInDecoration();
+          setVisible(false);
+        }
+        else if(e.getActionCommand().equals("Back")) {
+            dispose();
+            HomeGUI g = new HomeGUI();
+            g.setVisible(true);
         }
     }
 
     private JPanel decorationButtons() {
-       JPanel panel = new JPanel();
+
+        JPanel panel = new JPanel();
         JButton createAccButton = new JButton("Create Account");
         createAccButton.addActionListener(this);
         JButton loginButton = new JButton("Log In");
@@ -47,6 +71,7 @@ public class GameGUI extends JFrame implements ActionListener {
 
         panel.add(createAccButton);
         panel.add(loginButton);
+
         panel.setLocation(200, 200);
         return panel;
     }
@@ -85,4 +110,6 @@ public class GameGUI extends JFrame implements ActionListener {
     private void logIn() {
 
     }
+
+
 }

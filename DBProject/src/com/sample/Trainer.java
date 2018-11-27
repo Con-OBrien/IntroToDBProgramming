@@ -1,9 +1,11 @@
 package com.sample;
 
 
+import org.dom4j.rule.Pattern;
+
+import java.sql.*;
 import java.time.LocalDate;
 import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Trainer {
 
@@ -12,6 +14,16 @@ public class Trainer {
   private String password;
   private String email;
   private java.sql.Timestamp creationDate;
+
+    public Trainer(long trainerId, String tName, String password, String email, Timestamp creationDate) {
+        setTrainerId(trainerId);
+        setTName(tName);
+        setPassword(password);
+        setEmail(email);
+        setCreationDate(creationDate);
+
+
+    }
 
 
   public long getTrainerId() {
@@ -58,7 +70,41 @@ public class Trainer {
     this.creationDate = creationDate;
   }
 
-  public boolean validateInfo(String username, String email, String password, String confirmPassword) {
+    public static void insertSQL(long trainerID, String tname, String email, String password, Timestamp timestamp)
+    {
+        try
+        {
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+            Connection connection = DriverManager.getConnection("jdbc:sqlserver://localhost;database=Pokemon;integratedSecurity=true");
+
+            System.out.println("Pokemon: " + connection.getMetaData().getDatabaseProductName());
+
+            //Prevents SQL Injection
+            PreparedStatement prep = connection.prepareStatement("INSERT INTO Trainer(TrainerID, TName, Password, Email, CreationDate, StatusCodeID)");
+            prep.setLong(1, trainerID);
+            prep.setString(2, tname);
+            prep.setString(3, password);
+            prep.setString(4, email);
+            prep.setTimestamp(5, timestamp);
+            prep.executeUpdate();
+            System.out.println("Data Inserted");
+
+            ResultSet resultSet = prep.executeQuery("SELECT TName FROM Trainer");
+
+            while(resultSet.next())
+            {
+                System.out.println("Trainer ID: " + resultSet.getString("Name"));
+            }
+
+            connection.close();
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+            System.err.println("Problem Connecting!");
+        }
+    }
+ /* public boolean validateInfo(String username, String email, String password, String confirmPassword) {
 
     boolean check = false;
 
@@ -84,7 +130,7 @@ public class Trainer {
 
   }
 
-    public static final Pattern VALID_EMAIL_ADDRESS_REGEX = Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);
+    public static final Pattern VALID_EMAIL_ADDRESS_REGEX = Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$");
     public static final Pattern VALID_USERNAME_REGEX = Pattern.compile("[a-zA-Z0-9\\._\\-]{3,}");
     public static final Pattern VALID_PASSWORD_REGEX = Pattern.compile("(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{8,}");
 
@@ -101,6 +147,6 @@ public class Trainer {
     private static boolean validatePassword(String passwordStr) {
         Matcher matcher = VALID_PASSWORD_REGEX .matcher(passwordStr);
         return matcher.find();
-    }
+    }*/
 
 }

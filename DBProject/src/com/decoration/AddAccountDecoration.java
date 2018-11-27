@@ -1,15 +1,15 @@
+package com.decoration;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.Timestamp;
-import java.time.LocalDate;
-import java.util.Date;
 
+import com.GUI.*;
 import com.sample.*;
 
-
-public class DecorationPanels extends JFrame implements ActionListener {
+public class AddAccountDecoration extends JFrame implements ActionListener {
 
     private JLabel usernameLabel = new JLabel("Username:");
     private JLabel emailLabel = new JLabel("Email");
@@ -20,7 +20,7 @@ public class DecorationPanels extends JFrame implements ActionListener {
     private JTextField passwordField = new JTextField(15);
     private JTextField confirmPasswordField = new JTextField(15);
 
-    public DecorationPanels() {
+    public AddAccountDecoration() {
 
 
         setIconImage(new ImageIcon(".\\images\\Poke_Ball-512.png").getImage());
@@ -31,11 +31,21 @@ public class DecorationPanels extends JFrame implements ActionListener {
         setLocation(screenSize.width/2-getSize().width/2, screenSize.height/2-getSize().height/2);
 
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        JMenuBar menuBar = new JMenuBar();
+        JMenu backButton = new JMenu("Back");
+        menuBar.add(backButton);
 
+        JMenuItem backItem;
+
+        backItem = new JMenuItem("Back");
+        backButton.add(backItem);
+        backButton.addActionListener(this);
+        backItem.addActionListener(this);
         setLayout(new GridLayout(0,1));
         JPanel panel = new JPanel(new GridLayout(10,1));
         add(panel);
 
+        panel.add(menuBar);
         panel.add(usernameLabel);
         panel.add(usernameField);
         panel.add(emailLabel);
@@ -56,28 +66,21 @@ public class DecorationPanels extends JFrame implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
 
-        boolean blanksCheck = blankValidationCheck();
-
-        if(blanksCheck) {
-
-
-            Trainer trainer = new Trainer();
-            boolean check = trainer.validateInfo(usernameField.getText(), emailField.getText(),
-                    passwordField.getText(), confirmPasswordField.getText());
-
-            if (check) {
-                trainer.setTName(usernameField.getText());
-                trainer.setEmail(emailField.getText());
-                trainer.setPassword(passwordField.getText());
-                trainer.setCreationDate(new Timestamp(System.currentTimeMillis()));
-
-            }
-
+        if(e.getActionCommand().equals("Back")) {
+            System.out.println("yes");
+            dispose();
+            HomeGUI g = new HomeGUI();
+            g.setVisible(true);
         }
-        else
-            System.out.println("\nPlease re-enter correctly!");
+
+        if(e.getActionCommand().equals("Add Account")) {
+            Trainer.insertSQL(1,usernameField.getText(),emailField.getText(), passwordField.getText(),new Timestamp(System.currentTimeMillis()));
+        }
+          //
     }
-    private boolean blankValidationCheck() {
+
+
+   /* private boolean blankValidationCheck() {
         boolean check = false;
         if(!usernameField.getText().equals("")) {
             if(!emailField.getText().equals("")) {
@@ -98,5 +101,5 @@ public class DecorationPanels extends JFrame implements ActionListener {
             System.out.println("Username is empty");
 
         return check;
-    }
+    } */
 }
