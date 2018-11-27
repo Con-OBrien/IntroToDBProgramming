@@ -2,38 +2,36 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import com.sample.*;
 
 public class GameGUI extends JFrame implements ActionListener {
 
-    private GameGUI() {
+    public GameGUI() {
 
         setIconImage(new ImageIcon(".\\images\\Poke_Ball-512.png").getImage());
         setTitle("PokeTrumps");
         setSize(500, 300);
 
-        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-        setLocation(screenSize.width/2-getSize().width/2, screenSize.height/2-getSize().height/2);
+        getScreenSize();
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         add(decorationButtons());
-        //add(addAccountDecoration());
-
-        DecorationPanels dec = new DecorationPanels();
-        dec.setVisible(true);
-        add(dec);
-
-
     }
     public static void main(String[] args) {
             GameGUI game = new GameGUI();
             game.setVisible(true);
     }
+    public void getScreenSize() {
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        setLocation(screenSize.width/2-getSize().width/2, screenSize.height/2-getSize().height/2);
+    }
 
     public void actionPerformed(ActionEvent e) {
 
         if(e.getActionCommand().equals("Create Account")) {
-            add(addAccountDecoration());
-
+            System.out.println("yes");
+            DecorationPanels dec = new DecorationPanels();
+            setVisible(false);
         }
         else if(e.getActionCommand().equals("Log In")) {
             logIn();
@@ -43,7 +41,9 @@ public class GameGUI extends JFrame implements ActionListener {
     private JPanel decorationButtons() {
        JPanel panel = new JPanel();
         JButton createAccButton = new JButton("Create Account");
+        createAccButton.addActionListener(this);
         JButton loginButton = new JButton("Log In");
+        loginButton.addActionListener(this);
 
         panel.add(createAccButton);
         panel.add(loginButton);
@@ -51,8 +51,11 @@ public class GameGUI extends JFrame implements ActionListener {
         return panel;
     }
 
-    private JPanel addAccountDecoration() {
-        JPanel panel = new JPanel();
+    private void addAccountDecoration() {
+
+        removeAll();
+        setLayout(new GridLayout(0,1));
+        JPanel panel = new JPanel(new GridLayout(10,1));
 
         JLabel usernameLabel = new JLabel("Username:");
         JLabel emailLabel = new JLabel("Email");
@@ -77,7 +80,6 @@ public class GameGUI extends JFrame implements ActionListener {
 
         panel.add(addAccount);
 
-        return panel;
     }
 
     private void logIn() {

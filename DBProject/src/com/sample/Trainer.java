@@ -54,4 +54,12 @@ public class Trainer {
     this.creationDate = creationDate;
   }
 
+  public boolean validateInfo() {
+
+    boolean check = false;
+
+    return check;
+
+  }
+
 }
