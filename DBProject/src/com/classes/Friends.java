@@ -1,21 +1,11 @@
-package com.sample;
+package com.classes;
 
 
-public class Battle {
+public class Friends {
 
-  private long battleId;
   private long trainerId1;
   private long trainerId2;
-  private java.sql.Timestamp date;
-
-
-  public long getBattleId() {
-    return battleId;
-  }
-
-  public void setBattleId(long battleId) {
-    this.battleId = battleId;
-  }
+  private java.sql.Timestamp creationDate;
 
 
   public long getTrainerId1() {
@@ -36,12 +26,12 @@ public class Battle {
   }
 
 
-  public java.sql.Timestamp getDate() {
-    return date;
+  public java.sql.Timestamp getCreationDate() {
+    return creationDate;
   }
 
-  public void setDate(java.sql.Timestamp date) {
-    this.date = date;
+  public void setCreationDate(java.sql.Timestamp creationDate) {
+    this.creationDate = creationDate;
   }
 
 }

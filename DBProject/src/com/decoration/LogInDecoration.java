@@ -60,5 +60,10 @@ public class LogInDecoration extends JFrame implements ActionListener {
             HomeGUI g = new HomeGUI();
             g.setVisible(true);
         }
+        else if(e.getActionCommand().equals("Add Account")) {
+            dispose();
+            GameGUI g = new GameGUI();
+            g.setVisible(true);
+        }
     }
 }

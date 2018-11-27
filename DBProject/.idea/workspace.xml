@@ -2,16 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38a41ef8-e52b-43ae-b47a-af1e30e57292" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/GUI/GameGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/decoration/LogInDecoration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0953aa89-8089-4598-8947-7b19245fd68c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0953aa89-8089-4598-8947-7b19245fd68c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/battle/BattleSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pokemon/PokemonFavourites.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pokemon/PokemonMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pokemon/PokemonOverall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pokemon/PokemonTeam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/DecorationPanels.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/GameGUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/sample/Trainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBProject/com/sample/Trainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecorationPanels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/decoration/AddAccountDecoration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/HomeGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sample/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sample/Trainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/GUI/GameGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBProject/com/GUI/GameGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/decoration/AddAccountDecoration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBProject/com/decoration/AddAccountDecoration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/decoration/LogInDecoration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBProject/com/decoration/LogInDecoration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/sample/Battle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/sample/Friends.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/sample/Pokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/sample/Round.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/sample/Trainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/sample/TrainerPokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/GUI/GameGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/GameGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/decoration/AddAccountDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/decoration/AddAccountDecoration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/decoration/LogInDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/decoration/LogInDecoration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sample/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/classes/Battle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sample/Friends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/classes/Friends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sample/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/classes/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sample/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/classes/Round.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sample/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/classes/Trainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sample/TrainerPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/classes/TrainerPokemon.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,39 +75,40 @@
     <session id="-272747644">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="24" />
-          <entry key="java" value="5011" />
+          <entry key="java" value="6525" />
           <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5011" />
+          <entry key="JAVA" value="6525" />
           <entry key="PLAIN_TEXT" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="battle" value="1" />
-          <entry key="java" value="14" />
+          <entry key="java" value="22" />
           <entry key="sql" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="1" />
-          <entry key="JAVA" value="14" />
+          <entry key="JAVA" value="22" />
           <entry key="SQL" value="4" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -103,19 +118,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sample/Friends.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/GUI/HomeGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="442">
+              <caret line="56" column="8" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="60" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/decoration/LogInDecoration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="384">
+              <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,11 +141,65 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pokemon/PokemonTeam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/battle/BattleSequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/GUI/GameGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+            <state relative-caret-position="344">
+              <caret line="67" column="30" lean-forward="true" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pokemon/PokemonFavourites.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pokemon/PokemonOverall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/pokemon/PokemonMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,7 +235,12 @@
         <option value="$PROJECT_DIR$/src/com/decoration/AddAccountDecoration.java" />
         <option value="$PROJECT_DIR$/src/com/sample/Trainer.java" />
         <option value="$PROJECT_DIR$/src/com/decoration/LogInDecoration.java" />
+        <option value="$PROJECT_DIR$/src/com/pokemon/PokemonTeam.java" />
+        <option value="$PROJECT_DIR$/src/com/decoration/BackMenu.java" />
+        <option value="$PROJECT_DIR$/src/com/pokemon/PokemonMenu.java" />
         <option value="$PROJECT_DIR$/src/com/GUI/GameGUI.java" />
+        <option value="$PROJECT_DIR$/src/com/pokemon/PokemonOverall.java" />
+        <option value="$PROJECT_DIR$/src/com/pokemon/PokemonFavourites.java" />
       </list>
     </option>
   </component>
@@ -185,10 +250,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
     <option name="width" value="974" />
-    <option name="height" value="1167" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -196,8 +261,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -222,6 +285,20 @@
               <item name="DBProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="battle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DBProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DBProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DBProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DBProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="decoration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -236,19 +313,20 @@
               <item name="DBProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="pokemon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543334340231" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543340281340" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../RowingClubProject" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -267,7 +345,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GameGUI">
+    <configuration name="GameGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.GUI.GameGUI" />
+      <module name="DBProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomeGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.GUI.HomeGUI" />
       <module name="DBProject" />
@@ -275,8 +366,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.HomeGUI" />
+      <item itemvalue="Application.GameGUI" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GameGUI" />
         <item itemvalue="Application.HomeGUI" />
       </list>
     </recent_temporary>
@@ -296,17 +392,18 @@
       <workItem from="1543313090963" duration="2348000" />
       <workItem from="1543328079737" duration="105000" />
       <workItem from="1543328224004" duration="5975000" />
+      <workItem from="1543335932504" duration="4297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16392000" />
+    <option name="totallyTimeSpent" value="20689000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1167" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17943107" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13539445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -316,7 +413,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3288201" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32777777" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,7 +421,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Mypy" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32777777" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -340,7 +437,7 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="SciView" order="7" />
-      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.14989059" />
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.073027715" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
@@ -352,7 +449,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/sample/Battle.java">
+    <entry file="file://$PROJECT_DIR$/src/com/classes/Battle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
@@ -368,14 +465,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sample/TrainerPokemon.java">
+    <entry file="file://$PROJECT_DIR$/src/com/classes/TrainerPokemon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sample/Round.java">
+    <entry file="file://$PROJECT_DIR$/src/com/classes/Round.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
@@ -396,10 +493,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/insertSQL.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sample/Pokemon.java">
+    <entry file="file://$PROJECT_DIR$/src/insertSQL.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/classes/Pokemon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
@@ -410,9 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -426,24 +518,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/GUI/HomeGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sample/Friends.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sample/Trainer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/classes/Trainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
@@ -453,10 +528,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/decoration/LogInDecoration.java">
+    <entry file="file://$PROJECT_DIR$/src/com/classes/Friends.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/GUI/HomeGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="56" column="8" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="60" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/battle/BattleSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/decoration/BackMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="27" selection-end-column="32" />
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/decoration/LogInDecoration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pokemon/PokemonTeam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -465,8 +584,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/GUI/GameGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        <state relative-caret-position="344">
+          <caret line="67" column="30" lean-forward="true" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pokemon/PokemonOverall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pokemon/PokemonFavourites.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pokemon/PokemonMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

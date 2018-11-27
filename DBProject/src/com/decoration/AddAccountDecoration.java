@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 import java.sql.Timestamp;
 
 import com.GUI.*;
-import com.sample.*;
+import com.classes.*;
 
 public class AddAccountDecoration extends JFrame implements ActionListener {
 

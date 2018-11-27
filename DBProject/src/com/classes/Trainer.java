@@ -1,11 +1,7 @@
-package com.sample;
+package com.classes;
 
-
-import org.dom4j.rule.Pattern;
 
 import java.sql.*;
-import java.time.LocalDate;
-import java.util.regex.Matcher;
 
 public class Trainer {
 

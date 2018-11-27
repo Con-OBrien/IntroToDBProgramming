@@ -1,0 +1,71 @@
+package com.pokemon;
+
+import com.GUI.GameGUI;
+import com.GUI.HomeGUI;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+
+public class PokemonTeam extends JFrame implements ActionListener {
+
+    private JMenuBar menuBar;
+
+    public PokemonTeam() {
+        //headers for the table
+        setIconImage(new ImageIcon(".\\images\\Poke_Ball-512.png").getImage());
+        setTitle("PokeTrumps");
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        setLocation(screenSize.width/2-getSize().width/2, screenSize.height/2-getSize().height/2);
+
+        menuBar = new JMenuBar();
+        setJMenuBar(menuBar);
+
+        backMenu();
+
+        String[] columns = new String[] {
+                "ID", "Name", "Attack", "Defence", "SpecialAttack", "SpecialDefence", "Speed"
+        };
+
+        //actual data for the table in a 2d array
+        Object[][] data = new Object[][] {
+                {1, "Venasaur", 100, 100, 100, 100, 100 },
+                {2, "Charizard", 100, 100, 100, 100, 100 },
+                {3, "Blastoise", 60, 60, 60, 60, 60 },
+                {4, "Primeape", 80, 80, 80, 80, 90 },
+                {5, "Mewtwo", 150, 150, 150, 150, 150 },
+        };
+        //create table with data
+        JTable table = new JTable(data, columns);
+
+        //add the table to the frame
+        this.add(new JScrollPane(table));
+
+        this.setTitle("Pokemon Team");
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.pack();
+        this.setVisible(true);
+    }
+
+    public void backMenu() {
+
+        JMenu backButton = new JMenu("Back");
+        menuBar.add(backButton);
+
+        JMenuItem backItem;
+
+        backItem = new JMenuItem("Back");
+        backButton.add(backItem);
+        backItem.addActionListener(this);
+    }
+
+    public void actionPerformed(ActionEvent e) {
+        if(e.getActionCommand().equals("Back")) {
+            dispose();
+            GameGUI g = new GameGUI();
+            g.setVisible(true);
+        }
+    }
+}
