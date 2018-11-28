@@ -45,9 +45,9 @@ public class LogInDecoration extends JFrame implements ActionListener {
         panel.add(passwordField);
 
 
-        JButton addAccount = new JButton("Add Account");
-        addAccount.addActionListener(this);
-        panel.add(addAccount);
+        JButton logIn = new JButton("Log In");
+        logIn.addActionListener(this);
+        panel.add(logIn);
 
         pack();
         setVisible(true);
@@ -60,7 +60,7 @@ public class LogInDecoration extends JFrame implements ActionListener {
             HomeGUI g = new HomeGUI();
             g.setVisible(true);
         }
-        else if(e.getActionCommand().equals("Add Account")) {
+        else if(e.getActionCommand().equals("Log In")) {
             dispose();
             GameGUI g = new GameGUI();
             g.setVisible(true);

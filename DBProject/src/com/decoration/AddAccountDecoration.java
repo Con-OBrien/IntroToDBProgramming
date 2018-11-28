@@ -74,7 +74,10 @@ public class AddAccountDecoration extends JFrame implements ActionListener {
         }
 
         if(e.getActionCommand().equals("Add Account")) {
-            Trainer.insertSQL(1,usernameField.getText(),emailField.getText(), passwordField.getText(),new Timestamp(System.currentTimeMillis()));
+//            Trainer.insertSQL(1,usernameField.getText(),emailField.getText(), passwordField.getText(),new Timestamp(System.currentTimeMillis()));
+            dispose();
+            GameGUI g = new GameGUI();
+            g.setVisible(true);
         }
           //
     }

@@ -10,6 +10,7 @@ import java.awt.event.ActionListener;
 
 public class HomeGUI extends JFrame implements ActionListener {
 
+    private JMenuBar menuBar;
 
 
     public HomeGUI() {
@@ -17,6 +18,11 @@ public class HomeGUI extends JFrame implements ActionListener {
         setIconImage(new ImageIcon(".\\images\\Poke_Ball-512.png").getImage());
         setTitle("PokeTrumps");
         setSize(500, 300);
+
+        menuBar = new JMenuBar();
+        setJMenuBar(menuBar);
+
+        menuBar.add(quitButton());
 
         getScreenSize();
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -34,14 +40,19 @@ public class HomeGUI extends JFrame implements ActionListener {
         setLocation(screenSize.width/2-getSize().width/2, screenSize.height/2-getSize().height/2);
     }
 
-    private JMenuBar backButton() {
-        JMenuBar menuBar = new JMenuBar();
-        JMenu backButton = new JMenu("Back");
-        menuBar.add(backButton);
+    private JMenu quitButton() {
 
-        backButton.addActionListener(this);
+        JMenu quitMenu = new JMenu("Quit");
+        menuBar.add(quitMenu);
 
-        return  menuBar;
+        JMenuItem battle;
+
+        battle = new JMenuItem("Quit");
+
+        quitMenu.add(battle);
+        battle.addActionListener(this);
+
+        return quitMenu;
     }
 
     public void actionPerformed(ActionEvent e) {
@@ -54,10 +65,9 @@ public class HomeGUI extends JFrame implements ActionListener {
           LogInDecoration dec = new LogInDecoration();
           setVisible(false);
         }
-        else if(e.getActionCommand().equals("Back")) {
-            dispose();
-            HomeGUI g = new HomeGUI();
-            g.setVisible(true);
+        else if(e.getActionCommand().equals("Quit")) {
+            JOptionPane.showMessageDialog(null, "Thanks for playing PokeTrumps", "PokeTrumps", JOptionPane.INFORMATION_MESSAGE);
+            System.exit(0);
         }
     }
 
