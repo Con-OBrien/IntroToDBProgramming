@@ -4,7 +4,7 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="hibernate.cfg.xml" />
+          <unit-entry name="hibernate.cfg.xml" value="3f17f255-e84e-4b9a-a387-f21dcfc6ea39" />
         </datasource-map>
         <naming-strategy-map />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg.xml" />
@@ -23,6 +23,15 @@
       <library>
         <CLASSES>
           <root url="jar://C:/Program Files/Microsoft JDBC Driver 7.0 for SQL Server/enu/mssql-jdbc-7.0.0.jre10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Program Files/Microsoft JDBC Driver 7.0 for SQL Server/enu/mssql-jdbc-7.0.0.jre8.jar!/microsoft/sql" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
