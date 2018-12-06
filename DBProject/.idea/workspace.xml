@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38a41ef8-e52b-43ae-b47a-af1e30e57292" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../pokeTrumpsDynamicDatabaseController/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokeTrumpsDynamicDatabaseController/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pokeTrumpsDynamicDatabaseController/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,6 +71,7 @@
         <counts>
           <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -80,7 +82,7 @@
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -223,7 +225,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -251,7 +253,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,13 +275,6 @@
               <item name="DBProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DBProject" type="b2602c69:ProjectViewProjectNode" />
@@ -308,6 +302,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -320,7 +315,7 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.PYTHON_MODULE" value="Python 3.6" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/InnerDBProject/src" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/pokeTrumpsDynamicDatabaseController" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -427,16 +422,17 @@
       <workItem from="1543512963968" duration="260000" />
       <workItem from="1544097283309" duration="79000" />
       <workItem from="1544100369850" duration="17000" />
+      <workItem from="1544109640474" duration="849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32848000" />
+    <option name="totallyTimeSpent" value="33697000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2964989" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30306345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
