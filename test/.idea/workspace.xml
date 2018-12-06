@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77adf8c1-8188-4049-bb13-d1b349cfff48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DBProject/InnerDBProject/InnerDBProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DBProject/InnerDBProject/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DBProject/InnerDBProject/src/entities/BattleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DBProject/InnerDBProject/src/entities/FriendsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DBProject/InnerDBProject/src/entities/FriendsEntityPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DBProject/InnerDBProject/src/entities/PokemonEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DBProject/InnerDBProject/src/entities/RoundEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DBProject/InnerDBProject/src/entities/TrainerEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DBProject/InnerDBProject/src/entities/TrainerPokemonEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DBProject/InnerDBProject/src/entities/TrainerPokemonEntityPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DBProject/InnerDBProject/src/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DBProject/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DBProject/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DBProject/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DBProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DBProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,16 +95,17 @@
     <session id="-1357426929">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Battle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -128,7 +114,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.iml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -164,8 +150,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -175,6 +161,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,8 +179,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,19 +214,20 @@
       <updated>1543488428620</updated>
       <workItem from="1543488482243" duration="686000" />
       <workItem from="1543503760893" duration="493000" />
+      <workItem from="1544097372309" duration="765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1179000" />
+    <option name="totallyTimeSpent" value="1944000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977778" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49666667" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Persistence" order="2" sideWeight="0.50222224" side_tool="true" visible="true" weight="0.25266525" />
+      <window_info id="Persistence" order="2" sideWeight="0.50333333" side_tool="true" visible="true" weight="0.2553305" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="UI Designer" order="5" />
@@ -289,10 +276,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.iml">
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/test.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>

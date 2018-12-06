@@ -2,53 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38a41ef8-e52b-43ae-b47a-af1e30e57292" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/mssql-jdbc-7.0.0.jre10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/entities/BattleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/entities/FriendsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/entities/FriendsEntityPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/entities/PokemonEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/entities/RoundEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/entities/Trainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/entities/TrainerEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/entities/TrainerPokemonEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/entities/TrainerPokemonEntityPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/HibernateUtil1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/entities/BattleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/entities/FriendsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/entities/FriendsEntityPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/entities/PokemonEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/entities/RoundEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/entities/Trainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/entities/TrainerEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/entities/TrainerPokemonEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/entities/TrainerPokemonEntityPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0953aa89-8089-4598-8947-7b19245fd68c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DBProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/GUI/GameGUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/GUI/HomeGUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/battle/BattleSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/classes/Battle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/classes/Friends.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/classes/Pokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/classes/Round.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/classes/Trainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/classes/TrainerPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/decoration/AddAccountDecoration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/decoration/LogInDecoration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/pokemon/PokemonFavourites.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/pokemon/PokemonMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/pokemon/PokemonOverall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DBProject/com/pokemon/PokemonTeam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -114,18 +68,19 @@
     <session id="-272747644">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -200,7 +155,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/jdk/internal/loader/BuiltinClassLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8653">
+            <state relative-caret-position="8755">
               <caret line="581" selection-start-line="581" selection-end-line="581" />
             </state>
           </provider>
@@ -268,8 +223,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -349,11 +304,6 @@
               <item name="DBProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="DBProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="mssql-jdbc-7.0.0.jre10.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -370,7 +320,7 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.PYTHON_MODULE" value="Python 3.6" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/InnerDBProject/src" />
-    <property name="last_opened_file_path" value="C:/Program Files/Microsoft JDBC Driver 7.0 for SQL Server/enu/mssql-jdbc-7.0.0.jre8.jar!/microsoft/sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -475,16 +425,18 @@
       <workItem from="1543487952008" duration="1044000" />
       <workItem from="1543503748753" duration="5474000" />
       <workItem from="1543512963968" duration="260000" />
+      <workItem from="1544097283309" duration="79000" />
+      <workItem from="1544100369850" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32752000" />
+    <option name="totallyTimeSpent" value="32848000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.141258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2964989" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -592,13 +544,7 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0953aa89-8089-4598-8947-7b19245fd68c/console.sql" />
     <entry file="das://0953aa89-8089-4598-8947-7b19245fd68c/database/pokemon/schema/dbo/table/battle" />
-    <entry file="dbSrc:///1d6b9c08/0953aa89-8089-4598-8947-7b19245fd68c/database/pokemon/schema/dbo/routine/getvalidemail.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbSrc:///1d6b9c08/0953aa89-8089-4598-8947-7b19245fd68c/database/pokemon/schema/dbo/routine/getvalidemail.sql" />
     <entry file="file://$PROJECT_DIR$/src/com/classes/TrainerPokemon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -613,20 +559,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbSrc:///1d6b9c08/0953aa89-8089-4598-8947-7b19245fd68c/database/pokemon/schema/dbo/table/trainer/trigger/trainernamecheck.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbSrc:///1d6b9c08/0953aa89-8089-4598-8947-7b19245fd68c/database/pokemon/schema/dbo/table/trainer/trigger/traineremailcheck.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbSrc:///1d6b9c08/0953aa89-8089-4598-8947-7b19245fd68c/database/pokemon/schema/dbo/table/trainer/trigger/trainernamecheck.sql" />
+    <entry file="dbSrc:///1d6b9c08/0953aa89-8089-4598-8947-7b19245fd68c/database/pokemon/schema/dbo/table/trainer/trigger/traineremailcheck.sql" />
     <entry file="file://$PROJECT_DIR$/src/insertSQL.java" />
     <entry file="file://$PROJECT_DIR$/src/com/classes/Pokemon.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -706,11 +640,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/DBProject/com/classes/Battle.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/DBProject/com/classes/Battle.class" />
     <entry file="file://$PROJECT_DIR$/src/com/entities/BattleEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -729,9 +659,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3f17f255-e84e-4b9a-a387-f21dcfc6ea39/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3f17f255-e84e-4b9a-a387-f21dcfc6ea39/console.sql" />
     <entry file="file://$PROJECT_DIR$/src/com/GUI/GameGUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -781,7 +709,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/jdk/internal/loader/BuiltinClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8653">
+        <state relative-caret-position="8755">
           <caret line="581" selection-start-line="581" selection-end-line="581" />
         </state>
       </provider>
